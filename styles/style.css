@@ -1,13 +1,24 @@
 /* Common Shared Styles */
 *{
-    margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
 }
 
-/* Nav Section CSS */
+.btn-primary{
+    font-size: 15px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    color: white;
+    background-color: #E55473;
+    border: 0;
+    cursor: pointer;
+}
+
+/* Navigation Section CSS */
 
 nav{
     display: flex;
@@ -66,16 +77,6 @@ nav a:hover{
     padding: 40px 0px;
     color: rgb(141, 123, 123);
     line-height: 25px;
-}
-
-.btn-primary{
-    font-size: 15px;
-    padding: 15px 40px;
-    border-radius: 5px;
-    color: white;
-    background-color: #E55473;
-    border: 0;
-    cursor: pointer;
 }
 
 /* Featured Flowers Section CSS */
@@ -307,6 +308,10 @@ footer{
     color: white;
 }
 
+.footer-heading-part{
+    color: #E55473;
+}
+
 .footer-paragraph{
     color: white;
     padding: 20px 0px;
@@ -314,8 +319,4 @@ footer{
 
 .copyright{
     color: rgb(112, 104, 104);
-}
-
-.footer-heading-part{
-    color: #E55473;
 }
