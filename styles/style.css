@@ -33,6 +33,70 @@ body{
     border: 0;
 }
 
+/* Featured Flowers Section CSS */
+
+.featured-flowers-section{
+    text-align: center;
+}
+
+.featured-flowers-section-heading{
+    padding-top: 150px;
+}
+
+.featured-flowers-section-paragraph{
+    padding: 30px 0px 50px 0px;
+}
+
+.featured-flowers{
+    display: flex;
+    padding-left: 300px;
+    margin-bottom: 120px;
+}
+
+.pink-flower-tree{
+    background-color: plum;
+    border-radius: 100% 100% 0px 0px;
+    width: 400px;
+    height: 400px;
+    margin: 0px 20px;
+}
+
+.mixed-flower-tree{
+    background-color: rgb(170, 241, 241);
+    border-radius: 100% 100% 0px 0px;
+    width: 400px;
+    height: 400px;
+    margin: 0px 20px;
+}
+
+.yellow-flower-tree{
+    background-color: rgb(170, 234, 207);
+    border-radius: 100% 100% 0px 0px;
+    width: 400px;
+    height: 400px;
+    margin: 0px 20px;
+}
+
+.pink-flower-tree-image{
+    padding-top: 55px;
+    width: 250px;
+}
+
+.mixed-flower-tree-image{
+    padding-top: 45px;
+    width: 350px;
+}
+
+.yellow-flower-tree-image{
+    padding-top: 25px;
+    width: 250px;
+}
+
+.flowers-title{
+    text-decoration: underline;
+    padding-top: 30px;
+}
+
 /* Hot Deal Section CSS */
 
 .hot-deal-section{
