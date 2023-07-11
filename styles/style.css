@@ -7,6 +7,49 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+/* Nav Section CSS */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    margin: 15px 300px;
+}
+
+.nav-title{
+    font-size: 45px;
+    font-weight: 700px;
+}
+
+.nav-title-part{
+    color: #E55473;
+}
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: gray;
+}
+
+nav a:hover{
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #E55473;
+}
+
+/* Banner Section CSS */
+
 .banner-section{
     background-color: rgb(245, 210, 224);
     padding: 100px 300px 0px 300px;
@@ -19,18 +62,20 @@ body{
     font-size: 70px;
 }
 
-.banner-section p{
+.banner-section-paragraph{
     padding: 40px 0px;
     color: rgb(141, 123, 123);
     line-height: 25px;
 }
 
 .btn-primary{
+    font-size: 15px;
     padding: 15px 40px;
     border-radius: 5px;
     color: white;
     background-color: #E55473;
     border: 0;
+    cursor: pointer;
 }
 
 /* Featured Flowers Section CSS */
@@ -150,6 +195,7 @@ body{
 }
 
 /* Instagram Section CSS */
+
 .instagram-section{
     text-align: center;
     background-color: white;
@@ -198,6 +244,57 @@ body{
     border-radius: 5px;
 }
 
+/* About Us Section CSS */
+
+.about-us-section{
+    background-color: rgb(62, 59, 59);
+    padding: 80px 0px 100px 0px;
+}
+
+.about-us-section-header{
+    text-align: center;
+    padding-bottom: 70px;
+    font-size: 40px;
+    color: #767171;
+    letter-spacing: 5px;
+}
+
+.about-us-section-description-1{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 250px 50px 250px
+}
+
+.about-us-image{
+    width: 500px;
+}
+
+.about-us-history-1{
+    width: 50%;
+}
+
+.about-us-history-heading{
+    text-align: center;
+    font-size: 40px;
+    color: #767171;
+}
+
+.about-us-history-paragraph{
+    padding: 20px 0px;
+    color: #e8dada;
+    line-height: 25px;
+}
+
+.about-us-section-description-2{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 250px;
+}
+
+.about-us-history-2{
+    width: 50%;
+}
+
 /* Footer Section CSS */
 
 footer{
@@ -219,6 +316,6 @@ footer{
     color: rgb(112, 104, 104);
 }
 
-footer span{
+.footer-heading-part{
     color: #E55473;
 }
